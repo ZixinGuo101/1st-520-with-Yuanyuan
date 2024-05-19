@@ -1,7 +1,7 @@
 let html = document.querySelector("#html-text");
 let style = document.querySelector("#styleText");
 
-let originalString = `先画花的茎
+let originalString = `
 .stem {
     position: absolute;
     height: 0;
@@ -38,7 +38,7 @@ let originalString = `先画花的茎
     left: 44%;
     top: 70%;
 }
-再画花的叶
+
 .leaves>div{
     position: absolute;
     height: 60px;
@@ -62,7 +62,7 @@ let originalString = `先画花的茎
     background: var(--dark-green);
     box-shadow: inset -5px 5px var(--light-green);
 }
-最后画花瓣
+
 .petals>div:first-child {
     position: absolute;
     height: 100px;
@@ -129,17 +129,7 @@ let originalString = `先画花的茎
     transform: rotate(-20deg);
     top: 90%;
 }
-.wishes>div:first-child {
-    transform: translate(-80%);
-}
-.wishes>div:nth-child(2) {
-    transform: translate(-35%);
-}
-.wishes>div:nth-child(3) {
-    transform: translate(-95%);
-}
-.wishes>div:nth-child(4) {
-    transform: translate(-45%);
+
 }`;
 
 let showString = "";
