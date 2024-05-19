@@ -128,9 +128,7 @@ let originalString = `
     transition: transform 8s 2s, top 8s 2s;
     transform: rotate(-20deg);
     top: 90%;
-}
-
-}`;
+}}`;
 
 let showString = "";
 let styleString = "";
